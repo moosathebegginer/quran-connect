@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Quran Connect</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-  <div class="loader">
+  <!-- Loading Screen -->
+  <div id="loader">
     <div class="loader-content">
-      <h2>﴾ وَاصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ ﴿</h2>
-      <p>And be patient, for indeed, Allah does not allow to be lost the reward of those who do good. <br><em>— Surah Hud (11:115)</em></p>
+      <p id="ayah">Loading Quran verse...</p>
+      <p id="translation">Please wait...</p>
     </div>
   </div>
 
+  <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-left">
       <img src="10521273.png" alt="Logo" class="logo" />
@@ -30,11 +32,13 @@
     </div>
   </nav>
 
+  <!-- Hero Section -->
   <header class="hero">
     <h1>Welcome to Quran Connect</h1>
     <p>Learn to read the Quran with ease and confidence</p>
   </header>
 
+  <!-- Main Section -->
   <main class="section">
     <h2>Why Reading the Quran is Important</h2>
     <p>The Quran is the final and most complete revelation from Allah. It is a source of guidance, mercy, and light for all of humanity.</p>
@@ -54,9 +58,5 @@
     <h2>Start Your Quran Journey Today</h2>
     <p>No matter your age, it's never too late. Quran Connect is here for you.</p>
   </main>
-
-  <div style="height: 400px;"></div> <!-- Extra invisible scroll space -->
-
-  <script src="script.js"></script>
 </body>
 </html>
